@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+     text-align:center;
+}
+
+li{
+    color: rgb(217, 34, 34);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-right: 15%;
+} 
+
+    
+
+nav li:hover{
+    background-color: aquamarine;
+}
+body{margin: 0;padding: 0;background: url(https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg?cs=srgb&dl=pexels-fauxels-3183186.jpg&fm=jpg);background-size: cover;background-repeat:no-repeat; font-family: sans-serif;}
+.loginbox{width: 320px;height: 430px;background: #f4bdbd;color: #fff;top: 50%;left: 50%;position: absolute;transform: translate(-50%, -50%);box-sizing: border-box;padding: 70px 30px}.avatar{width: 100px;height: 100px;border-radius: 50%;position: absolute;top: -50px;left: calc(50% - 50px)}h1{margin: 0;padding: 0 0 20px;text-align: center;font-size: 22px}.loginbox p{margin: 0;padding: 0;font-weight: bold}.loginbox input{width: 100%;margin-bottom: 20px}.loginbox input[type="text"], input[type="password"]{border: none;border-bottom: 1px solid #fff;background: transparent;outline: none;height: 40px;color: #fff;font-size: 16px}.loginbox input[type="submit"]{border: none;outline: none;height: 40px;background: #eaf5ae;color:#fff;font-size: 18px;border-radius: 20px}.loginbox input[type="submit"]:hover{cursor: pointer;background: #ffc107;color: #f0f0f0}.loginbox a{text-decoration: none;font-size: 12px;line-height: 20px;color: darkgrey}.loginbox a:hover{color: #ffc107}
+
+* {box-sizing: border-box}
+
+label{
+    color: white;
+}
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.container h1{
+    color: white;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

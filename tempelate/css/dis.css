@@ -1,0 +1,85 @@
+
+  .logo-image{
+    width: 60px;
+    height: 60px;
+    
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+li{
+    color: rgb(24,2,2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-right: 15%;
+    
+
+    
+
+}
+nav li:hover{
+    background-color: aqua;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+ 
+  
+  div.gallery {
+    border: 2px solid #ccc;
+    margin-top: 40%;
+    float: left;
+    background-color: aliceblue;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #e96c6c;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(19, 18, 15);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
